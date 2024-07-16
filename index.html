@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex: 1;
+        }
+        .game-card {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+        .game-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Facts About Gaming</h1>
+        <p>Discover 3 video game facts!</p>
+    </header>
+
+    <div class="container">
+        <div class="game-card">
+            <img src="images/MInecraft.avif" alt="Minecraft">
+            <h2>Minecraft</h2>
+            <p>Markus "Notch" Persson started working on Minecraft in 2009 as a hobby project inspired by games like Dwarf Fortress and Infiniminer. The game was originally called "Cave Game" and then "Minecraft: Order of the Stone" before settling on its final name, which is a combination of the words "mine" and "craft".</p>
+        </div>
+        <div class="game-card">
+            <img src="images/Stardew.png" alt="Stardew Valley" width="300" height="300">
+            <h2>Stardew Valley</h2>
+            <p>Stardew Valley was created by game designer Eric Barone, under the alias of ConcernedApe. During the four years he spent solo-developing it, he taught himself the necessary skills to produce the game's music, art, programming, and design.</p>
+        </div>
+        <div class="game-card">
+            <img src="images/DeadRising2.avif" alt="Dead Rising 2">
+            <h2>Dead Rising 2</h2>
+            <p>Capcom created a variety of websites before the release of the game. These include TapeitorDie.Com, visitfortunecity.com, and deadrising-2.com.
+
+                In August 2010, Keiji Inafune released an eight-part video series entitled Zombrex: Dead Rising Sun. Capcom sponsored a gathering of zombies at the London House of Parliament on August 30— the best dressed won a game console. Attendees also received a limited edition, one-of-a-kind T-shirt.</p>
+        </div>
+        <!-- Add more game cards as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gaming Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
